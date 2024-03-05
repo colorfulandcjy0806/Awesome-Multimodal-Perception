@@ -1,6 +1,6 @@
 # Awesome-Multimodal-Perception 🌈
 
-如果你希望阅读本文档的中文版本，请点击[这里](./Readme.md)。 
+如果你希望阅读本文档的中文版本，请点击[这里](./README.md)。 
 
 If you would like to read the English version of this document, please click [Here](./English.md).
 
