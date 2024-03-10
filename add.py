@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 4,
-        '类型': '图像识别',
-        '论文名称': 'An Example of Image Recognition Paper',
-        '作者': 'Jane Doe et al.',
-        '发表单位': 'Example University',
+        '序号': 3,
+        '类型': '3D目标检测',
+        '论文名称': 'UniMODE: Unified Monocular 3D Object Detection',
+        '作者': 'Zhuoling Li, Xiaogang Xu, SerNam Lim, Hengshuang Zhao',
+        '发表单位': 'The University of Hong Kong、Zhejiang University、University of Central Florida',
         '期刊/会议': 'CVPR2024',
-        '论文链接': 'https://example.com/paper',
-        '代码链接': 'https://github.com/example/repo',
-        '解读链接': 'https://medium.com/@example/review'
+        '论文链接': 'https://arxiv.org/abs/2402.18573',
+        '代码链接': 'https://arxiv.org/abs/2402.18573',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/686228362'
     }
 
     insert_paper_info(new_paper, "README.md")
