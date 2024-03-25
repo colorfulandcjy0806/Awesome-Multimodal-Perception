@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 4,
-        '类型': '相机+激光雷达融合',
-        '论文名称': 'DeepFusion: Lidar-Camera Deep Fusion for Multi-Modal 3D Object Detection',
-        '作者': 'Yingwei Li, Adams Wei Yu, Tianjian Meng, Ben Caine, Jiquan Ngiam, Daiyi Peng, Junyang Shen, Bo Wu, Yifeng Lu, Denny Zhou, Quoc V. Le, Alan Yuille, Mingxing Tan',
-        '发表单位': 'Johns Hopkins University、Google',
-        '期刊/会议': 'CVPR2022',
-        '论文链接': 'https://arxiv.org/abs/2203.08195v1',
-        '代码链接': 'https://github.com/tensorflow/lingvo/blob/master/lingvo/tasks/car/deep_fusion.py',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/687676198'
+        '序号': 5,
+        '类型': '3D目标检(纯视觉)',
+        '论文名称': 'Enhancing 3D Object Detection with 2D Detection-Guided Query Anchors',
+        '作者': 'Haoxuanye Ji,Pengpeng Liang,Erkang Cheng',
+        '发表单位': '郑州大学、Nullmax',
+        '期刊/会议': 'CVPR2024',
+        '论文链接': 'https://arxiv.org/abs/2403.06093',
+        '代码链接': 'https://arxiv.org/abs/2403.06093',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/688934983'
     }
 
     insert_paper_info(new_paper, "README.md")
