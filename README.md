@@ -19,6 +19,7 @@ If you would like to read the English version of this document, please click [He
 | 5 | 3D目标检(纯视觉) | Enhancing 3D Object Detection with 2D Detection-Guided Query Anchors | Haoxuanye Ji,Pengpeng Liang,Erkang Cheng | 郑州大学、Nullmax | CVPR2024 | [📄](https://arxiv.org/abs/2403.06093) | [💻](https://arxiv.org/abs/2403.06093) | [🔍](https://zhuanlan.zhihu.com/p/688934983) |
 | 6 | 3D目标检(纯视觉) | Object as Query: Lifting any 2D Object Detector to 3D Detection | Zitian Wang,Zehao Huang,Jiahui Fu,Naiyan Wang,Si Liu | 北京航空航天大学人工智能研究院、图森未来 | ICCV2023 | [📄](https://arxiv.org/abs/2301.02364) | [💻](https://github.com/tusen-ai/MV2D?tab=readme-ov-file) | [🔍](https://zhuanlan.zhihu.com/p/690036659) |
 | 7 | 3D目标检(纯视觉) | MonoCD: Monocular 3D Object Detection with Complementary Depths | Longfei Yan, Pei Yan, Shengzhou Xiong, Xuanyu Xiang, Yihua Tan | 华中科技大学人工智能与自动化学院 | CVPR2024 | [📄](https://arxiv.org/abs/2404.03181) | [💻](https://github.com/elvintanhust/MonoCD) | [🔍](https://zhuanlan.zhihu.com/p/691322485) |
+| 8 | 相机+激光雷达+雷达融合 | FUTR3D: A Unified Sensor Fusion Framework for 3D Detection | Xuanyao Chen,Tianyuan Zhang,Yue Wang,Yilun Wang,Hang Zhao | 上海期智研究院、复旦大学、CMU、清华大学、MIT、Li Auto | 无 | [📄](https://arxiv.org/abs/2203.10642) | [💻](https://github.com/Tsinghua-MARS-Lab/futr3d) | [🔍](https://zhuanlan.zhihu.com/p/692602887) |
 | ...  | ...             | ...                                                          | ...                                                          | ...                              | ...                 | ...                                   | ...                                                | ...                                         |
 
 ## 🤝 如何贡献
@@ -31,4 +32,4 @@ If you would like to read the English version of this document, please click [He
 
 ---
 
-希望这个仓库能成为你多模态感知学习和研究旅程中的宝贵资源。如果你觉得这里的内容对你有帮助，欢迎给予星标支持！🌟
+希望这个仓库能成为你多模态感知学习和研究旅程中的宝贵资源。如果你觉得这里的内容对你有帮助，欢迎给予星标支持！

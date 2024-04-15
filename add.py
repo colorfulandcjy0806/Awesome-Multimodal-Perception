@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 7,
-        '类型': '3D目标检(纯视觉)',
-        '论文名称': 'MonoCD: Monocular 3D Object Detection with Complementary Depths',
-        '作者': 'Longfei Yan, Pei Yan, Shengzhou Xiong, Xuanyu Xiang, Yihua Tan',
-        '发表单位': '华中科技大学人工智能与自动化学院',
-        '期刊/会议': 'CVPR2024',
-        '论文链接': 'https://arxiv.org/abs/2404.03181',
-        '代码链接': 'https://github.com/elvintanhust/MonoCD',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/691322485'
+        '序号': 8,
+        '类型': '相机+激光雷达+雷达融合',
+        '论文名称': 'FUTR3D: A Unified Sensor Fusion Framework for 3D Detection',
+        '作者': 'Xuanyao Chen,Tianyuan Zhang,Yue Wang,Yilun Wang,Hang Zhao',
+        '发表单位': '上海期智研究院、复旦大学、CMU、清华大学、MIT、Li Auto',
+        '期刊/会议': '无',
+        '论文链接': 'https://arxiv.org/abs/2203.10642',
+        '代码链接': 'https://github.com/Tsinghua-MARS-Lab/futr3d',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/692602887'
     }
 
     insert_paper_info(new_paper, "README.md")
