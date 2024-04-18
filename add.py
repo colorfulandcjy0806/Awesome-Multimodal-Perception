@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 8,
-        '类型': '相机+激光雷达+雷达融合',
-        '论文名称': 'FUTR3D: A Unified Sensor Fusion Framework for 3D Detection',
-        '作者': 'Xuanyao Chen,Tianyuan Zhang,Yue Wang,Yilun Wang,Hang Zhao',
-        '发表单位': '上海期智研究院、复旦大学、CMU、清华大学、MIT、Li Auto',
-        '期刊/会议': '无',
-        '论文链接': 'https://arxiv.org/abs/2203.10642',
-        '代码链接': 'https://github.com/Tsinghua-MARS-Lab/futr3d',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/692602887'
+        '序号': 9,
+        '类型': '相机+激光雷达融合',
+        '论文名称': "BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation",
+        '作者': 'Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang, Huizi Mao, Daniela Rus, Song Han',
+        '发表单位': 'MIT、上海交通大学',
+        '期刊/会议': 'ICRA 2023',
+        '论文链接': 'https://arxiv.org/abs/2205.13542',
+        '代码链接': 'https://github.com/mit-han-lab/bevfusion',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/692741500'
     }
 
     insert_paper_info(new_paper, "README.md")
