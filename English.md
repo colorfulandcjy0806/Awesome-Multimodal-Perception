@@ -1,5 +1,5 @@
 # Awesome-Multimodal-Perception 🌈
-
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 如果你希望阅读本文档的中文版本，请点击[这里](./Readme.md)。 
 
 If you would like to read the English version of this document, please click [Here](./English.md).
