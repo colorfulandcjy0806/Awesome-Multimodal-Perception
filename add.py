@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 13,
+        '序号': 14,
         '类型': '相机+激光雷达融合',
-        '论文名称': "Cross Modal Transformer: Towards Fast and Robust 3D Object Detection",
-        '作者': 'Junjie Yan, Yingfei Liu, Jianjian Sun, Fan Jia, Shuailin Li, Tiancai Wang, Xiangyu Zhang',
-        '发表单位': '旷视科技',
+        '论文名称': "SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection",
+        '作者': 'Yichen Xie, Chenfeng Xu, Marie-Julie Rakotosaona, Patrick Rim, Federico Tombari, Kurt Keutzer, Masayoshi Tomizuka, Wei Zhan',
+        '发表单位': '加州大学伯克利分校、Google、加州理工学院',
         '期刊/会议': 'ICCV2023',
-        '论文链接': 'https://arxiv.org/abs/2301.01283',
-        '代码链接': 'https://github.com/junjie18/CMT',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/698801629'
+        '论文链接': 'https://arxiv.org/abs/2304.14340',
+        '代码链接': 'https://github.com/yichen928/SparseFusion',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/699956228'
     }
 
     insert_paper_info(new_paper, "README.md")
