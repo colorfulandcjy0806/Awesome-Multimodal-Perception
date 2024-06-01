@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 14,
-        '类型': '相机+激光雷达融合',
-        '论文名称': "SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection",
-        '作者': 'Yichen Xie, Chenfeng Xu, Marie-Julie Rakotosaona, Patrick Rim, Federico Tombari, Kurt Keutzer, Masayoshi Tomizuka, Wei Zhan',
-        '发表单位': '加州大学伯克利分校、Google、加州理工学院',
-        '期刊/会议': 'ICCV2023',
-        '论文链接': 'https://arxiv.org/abs/2304.14340',
-        '代码链接': 'https://github.com/yichen928/SparseFusion',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/699956228'
+        '序号': 15,
+        '类型': 'Mamba架构',
+        '论文名称': "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+        '作者': 'Albert Gu,Tri Dao',
+        '发表单位': '卡内基梅隆大学、普林斯顿大学',
+        '期刊/会议': '无',
+        '论文链接': 'https://arxiv.org/abs/2312.00752',
+        '代码链接': 'https://github.com/state-spaces/mamba',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/700997537'
     }
 
     insert_paper_info(new_paper, "README.md")
