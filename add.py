@@ -26,14 +26,14 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 15,
+        '序号': 16,
         '类型': 'Mamba架构',
         '论文名称': "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
-        '作者': 'Albert Gu,Tri Dao',
-        '发表单位': '卡内基梅隆大学、普林斯顿大学',
-        '期刊/会议': '无',
-        '论文链接': 'https://arxiv.org/abs/2312.00752',
-        '代码链接': 'https://github.com/state-spaces/mamba',
+        '作者': 'Lianghui Zhu, Bencheng Liao, Qian Zhang, Xinlong Wang, Wenyu Liu, Xinggang Wang',
+        '发表单位': '华中科技大学、地平线机器人、北京人工智能研究院',
+        '期刊/会议': 'ICML2024',
+        '论文链接': 'https://arxiv.org/abs/2401.09417',
+        '代码链接': 'https://github.com/hustvl/Vim',
         '解读链接': 'https://zhuanlan.zhihu.com/p/700997537'
     }
 
