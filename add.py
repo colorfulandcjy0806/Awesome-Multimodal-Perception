@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 17,
-        '类型': 'Mamba架构',
-        '论文名称': "MambaOut: Do We Really Need Mamba for Vision?",
-        '作者': 'Weihao Yu, Xinchao Wang',
-        '发表单位': '新加坡国立大学',
-        '期刊/会议': 'ICML2024',
-        '论文链接': 'https://arxiv.org/abs/2405.07992',
-        '代码链接': 'https://github.com/yuweihao/MambaOut',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/700997537'
+        '序号': 18,
+        '类型': '相机+激光雷达融合',
+        '论文名称': "IS-Fusion: Instance-Scene Collaborative Fusion for Multimodal 3D Object Detection",
+        '作者': 'Junbo Yin, Jianbing Shen, Runnan Chen, Wei Li, Ruigang Yang, Pascal Frossard, Wenguan Wang',
+        '发表单位': '北京理工大学、澳门大学、香港大学、嬴彻科技、洛桑联邦理工学院、浙江大学',
+        '期刊/会议': 'CVPR2024',
+        '论文链接': 'https://arxiv.org/abs/2403.15241',
+        '代码链接': 'https://github.com/yinjunbo/IS-Fusion',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/701010462'
     }
 
     insert_paper_info(new_paper, "README.md")
