@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 18,
-        '类型': '相机+激光雷达融合',
-        '论文名称': "IS-Fusion: Instance-Scene Collaborative Fusion for Multimodal 3D Object Detection",
-        '作者': 'Junbo Yin, Jianbing Shen, Runnan Chen, Wei Li, Ruigang Yang, Pascal Frossard, Wenguan Wang',
-        '发表单位': '北京理工大学、澳门大学、香港大学、嬴彻科技、洛桑联邦理工学院、浙江大学',
-        '期刊/会议': 'CVPR2024',
-        '论文链接': 'https://arxiv.org/abs/2403.15241',
-        '代码链接': 'https://github.com/yinjunbo/IS-Fusion',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/701010462'
+        '序号': 19,
+        '类型': '开放词汇分割',
+        '论文名称': "GroupViT: Semantic Segmentation Emerges from Text Supervision",
+        '作者': 'Jiarui Xu, Shalini De Mello, Sifei Liu, Wonmin Byeon, Thomas Breuel, Jan Kautz, Xiaolong Wang',
+        '发表单位': '加州大学圣地亚哥分校、NVIDIA',
+        '期刊/会议': 'CVPR2022',
+        '论文链接': 'https://arxiv.org/abs/2202.11094v4',
+        '代码链接': 'https://github.com/NVlabs/GroupViT/tree/main',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/705173104'
     }
 
     insert_paper_info(new_paper, "README.md")
