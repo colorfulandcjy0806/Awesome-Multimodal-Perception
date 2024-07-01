@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 19,
+        '序号': 20,
         '类型': '开放词汇分割',
-        '论文名称': "GroupViT: Semantic Segmentation Emerges from Text Supervision",
-        '作者': 'Jiarui Xu, Shalini De Mello, Sifei Liu, Wonmin Byeon, Thomas Breuel, Jan Kautz, Xiaolong Wang',
-        '发表单位': '加州大学圣地亚哥分校、NVIDIA',
-        '期刊/会议': 'CVPR2022',
-        '论文链接': 'https://arxiv.org/abs/2202.11094v4',
-        '代码链接': 'https://github.com/NVlabs/GroupViT/tree/main',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/705173104'
+        '论文名称': "Side Adapter Network for Open-Vocabulary Semantic Segmentation",
+        '作者': 'Mengde Xu,Zheng Zhang,Fangyun Wei,Han Hu,Xiang Bai',
+        '发表单位': '华中科技大学、微软亚洲研究院',
+        '期刊/会议': 'CVPR2023 Highlight',
+        '论文链接': 'https://arxiv.org/abs/2302.12242',
+        '代码链接': 'https://github.com/MendelXu/SAN',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/706374811'
     }
 
     insert_paper_info(new_paper, "README.md")
