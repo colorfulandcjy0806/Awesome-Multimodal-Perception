@@ -26,14 +26,14 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 20,
-        '类型': '开放词汇分割',
-        '论文名称': "Side Adapter Network for Open-Vocabulary Semantic Segmentation",
-        '作者': 'Mengde Xu,Zheng Zhang,Fangyun Wei,Han Hu,Xiang Bai',
-        '发表单位': '华中科技大学、微软亚洲研究院',
-        '期刊/会议': 'CVPR2023 Highlight',
-        '论文链接': 'https://arxiv.org/abs/2302.12242',
-        '代码链接': 'https://github.com/MendelXu/SAN',
+        '序号': 21,
+        '类型': '大语言模型',
+        '论文名称': "LLaMA: Open and Efficient Foundation Language Models",
+        '作者': 'Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample',
+        '发表单位': 'Meta AI',
+        '期刊/会议': '无',
+        '论文链接': 'https://arxiv.org/abs/2302.13971',
+        '代码链接': 'https://github.com/Meta-Llama/llama',
         '解读链接': 'https://zhuanlan.zhihu.com/p/706374811'
     }
 
