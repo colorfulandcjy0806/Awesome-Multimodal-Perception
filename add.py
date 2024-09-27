@@ -26,15 +26,15 @@ def insert_paper_info(entry, filepath):
 if __name__ == "__main__":
     # 示例论文条目
     new_paper = {
-        '序号': 21,
-        '类型': '大语言模型',
-        '论文名称': "LLaMA: Open and Efficient Foundation Language Models",
-        '作者': 'Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample',
-        '发表单位': 'Meta AI',
-        '期刊/会议': '无',
-        '论文链接': 'https://arxiv.org/abs/2302.13971',
-        '代码链接': 'https://github.com/Meta-Llama/llama',
-        '解读链接': 'https://zhuanlan.zhihu.com/p/706374811'
+        '序号': 22,
+        '类型': '3D分割',
+        '论文名称': "Segment Anything in 3D with Radiance Fields",
+        '作者': 'Jiazhong Cen, Jiemin Fang, Zanwei Zhou, Chen Yang, Lingxi Xie, Xiaopeng Zhang, Wei Shen, Qi Tian',
+        '发表单位': '上海交通大学、华为公司、华中科技大学启蒙学院 .',
+        '期刊/会议': 'NeurIPS 2023',
+        '论文链接': 'https://arxiv.org/abs/2304.12308',
+        '代码链接': 'https://github.com/Jumpat/SegmentAnythingin3D?tab=readme-ov-file',
+        '解读链接': 'https://zhuanlan.zhihu.com/p/733634754'
     }
 
     insert_paper_info(new_paper, "README.md")
